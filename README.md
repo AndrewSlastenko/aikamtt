@@ -5,3 +5,5 @@
 pg_dump -f testdb.sql -U postgres --inserts testdb
 
 Таким образом, его можно скормить psql, и он воссоздаст бд.
+
+Данные для подключения к бд выносить не стал, изменить их можно в WebConfig.java
